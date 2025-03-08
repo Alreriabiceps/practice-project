@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("loginForm").addEventListener("submit", (event) => {
         event.preventDefault(); // Prevent form submission
 
@@ -11,4 +10,3 @@ document.addEventListener("DOMContentLoaded", () => {
             alert("Login failed");
         }
     });
-});
